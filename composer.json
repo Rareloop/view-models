@@ -1,0 +1,41 @@
+{
+    "name": "rareloop/view-models",
+    "description": ":package_description",
+    "keywords": [
+        "rareloop",
+        "view-models"
+    ],
+    "homepage": "https://github.com/rareloop/view-models",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Tomat",
+            "email": "adam.tomat@rareloop.com",
+            "homepage": "https://rareloop.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7",
+        "tightenco/collect": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rareloop\\ViewModels\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rareloop\\ViewModels\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
