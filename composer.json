@@ -1,11 +1,11 @@
 {
     "name": "rareloop/view-models",
-    "description": ":package_description",
+    "description": "A small package to make dealing with views easier",
     "keywords": [
         "rareloop",
         "view-models"
     ],
-    "homepage": "https://github.com/rareloop/view-models",
+    "homepage": "https://github.com/Rareloop/view-models",
     "license": "MIT",
     "authors": [
         {
