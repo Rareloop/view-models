@@ -1,3 +1,5 @@
+**This package is deprecated. View Models are now baked into the Lumberjack core.**
+
 # View Models
 
 Here, a `ViewModel` refers to something that takes data and transforms it into the correct format for a specific view. They are **input-output machines**.
